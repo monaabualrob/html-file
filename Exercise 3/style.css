@@ -1,0 +1,224 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+ h2, h3 {
+    text-align: left;
+}
+
+a{
+    display: inline-block;
+}
+
+/* Header Section */
+.header {
+    background-color: #dda8a8;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 50px 20px 50px; 
+    position: sticky;
+}
+.nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navlist {
+    list-style: none;
+}
+
+.navlist li {
+    display: inline-block;
+    margin: 5px; 
+}
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.navlist a:hover {
+    color: rgb(120, 24, 51); 
+}
+
+/*about section*/ 
+#about {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 45px 20px 45px; 
+    border-radius: 15px; 
+    text-align: left;
+
+}
+.aboutimg{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;  
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 50px 20px 50px; 
+    border-radius: 15px; 
+    text-align: left;
+    background-image: url('imgs/skills.jpg'); 
+    background-size: cover; 
+}
+.skills-box {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px ;
+    margin: 20px 50px 20px 50px; 
+    border-radius: 15px;  
+    width: 100%;  
+    max-width: 1300px;  
+}
+
+.skills-list {
+    list-style-type: none;  
+}
+
+.skills-list li {
+    display: inline-block;
+    background-color: #d08181;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.skills-list li:hover {
+    transform: translateY(-5px); 
+    background-color: #b16363; 
+    cursor: pointer;  
+    transition: all 0.3s ease;  
+}
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 20px ;
+    margin: 20px 50px 20px 50px;
+    border-radius: 15px; 
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px; 
+    position: static;
+}
+
+.orange{
+    padding: 20px;
+    border-radius: 15px; 
+    width: 400px;
+    text-align: left;
+    margin-left: 30px;
+    position:static;
+    background-color: #FFA500;
+    color: white;
+}
+.blue {
+    padding: 20px;
+    border-radius: 15px; 
+    width: 400px;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    background-color: #007bff;
+    color: white;
+    margin-left: 30px;    
+}
+
+.gray {
+    padding: 20px;
+    border-radius: 15px; 
+    width: 1355px;
+    margin-top: -30px;
+    text-align: left;
+    margin-left: 30px;
+    background-color: #808080;
+    color: white;
+    position: relative;
+}
+.purble{
+    padding: 20px;
+    border-radius: 15px; 
+    width: 400px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: -1250px ;
+    background-color: #7a1550;
+    color: white; 
+    position: absolute; 
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px 50px 20px 50px; 
+    border-radius: 15px; 
+    text-align: left; 
+}
+form{
+    width: 99%;
+}
+
+input, textarea {
+    width: 100%; 
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(13, 44, 13); 
+}
+/* Footer Section */
+footer {
+    background-color: #d08181;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 50px 20px 50px; 
+    border-radius: 15px; 
+}
+
+footer a {
+    color: rgb(120, 24, 51); 
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.scroll-to-top {
+    width: 50px;
+    position: fixed; 
+    right: 0px; 
+    bottom: 20px; 
+    font-size: 50px;
+    align-items: right;
+    color: rgb(103, 11, 76); 
+    text-decoration: none;
+}
