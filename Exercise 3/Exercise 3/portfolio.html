@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+            <div class="header-content">
+                <h1 id="main-title">Mona Abualrob</h1>
+                <p>Front End Developer | Designer | Motion Graphic Designer</p>
+            </div>
+        <nav class="nav">
+            <ul class="navlist">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p> Hello! I'm Mona, I'm a student at Arab American University, majoring in Multimedia Technology.</p>
+        <img class="aboutimg" src="imgs/mona.jpeg"> 
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-box">
+        <ul class="skills-list">
+            <li>Adobe Programs</li>
+            <li>Digital Drawing</li>
+            <li>Graphic Design</li>
+            <li>Motion Graphic Design</li>
+            <li>UI/Ux Design</li>
+            <li>Html</li>
+            <li>CSS</li>
+        </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="proj">
+            <div class="orange">
+                <h3>PalStudentsHub Website</h3>
+                <p>The purpose of the project is to create a website specifically for Palestinian university 
+                    students in an effort to promote interaction amongst students from different majors 
+                    who may be geographically apart. The project aims to create a space for students to 
+                    share their experiences with one another.</p>
+            </div>
+            <div class="blue">
+                <h3>Storyboarding to 2d animation movie</h3>
+                <p>The idea of this project is to create a short animated movie entitled “The Soul of the Soul”. The idea of the film is to review and recall the memories of a grandfather who lost his granddaughter who was not more than four years old as a result of the Israeli bombing of their house in Gaza during the last aggression in November 2023, where  he described her as the soul of the soul the moment he bid her farewell, hence the  name of the movie was quoted, their memories will be reviewed from the moment he bid her farewell. </p>
+            </div>
+            <div class="gray">
+                <h3>Blog Platform</h3>
+                <p>A responsive blog platform where users can create, edit, and publish posts. Built with Node.js, Express, and MongoDB.</p>
+            </div>
+        </div>
+    </section>
+    <div class="purble">
+        <h3>E-Commerce Site</h3>
+        <p>A fully functional e-commerce platform using React and Node.js. Implements secure user authentication and Stripe payment integration.</p>
+    </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="hover-button">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Mona Abualrob | <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+
+    <!-- Scroll-to-Top Button -->
+    <a href="#" class="scroll-to-top" id="scrollToTopButton">↑</a>
+
+</body>
+</html>
