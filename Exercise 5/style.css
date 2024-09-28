@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  
+  nav.main {
+    background-color: #555;
+    height: 50px;
+  }
+  
+  div.main {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .main .left {
+    flex-basis: 60%;
+
+  }
+  div.top{
+    display: flex;
+    justify-content:flex-start;
+    gap: 5px;
+  }
+  .main .left div h2 {
+    height: 20px;
+    width: 90px;
+    background-color: #aaa;
+    margin-bottom: 0%;
+  }
+   .large-section {
+    height: 310px;
+    background-color: #555;
+    margin-bottom: 15px;
+  }
+  .main .left .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+  .items-list .item {
+    flex-basis: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items:space-around; 
+
+  }
+
+  .items-list .item img {
+    width: 90%;
+    height: 135px;
+    background-color: #999;
+  }
+  
+  .items-list .item h3 {
+    height: 10px;
+    width: 90%;
+    background-color: #999;
+    margin-bottom: 0%;
+  }
+  div .p2{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+h4{
+    width: 75%;
+    height: 10px;
+    background-color: #999;
+}
+h5{
+    width: 10%;
+    height: 10px;
+    background-color: #999;
+}
+  .main .right {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  div.top-right{
+    display: flex;
+    justify-content:flex-end;
+    gap: 5px;
+  }
+  
+  .main .right div h3 {
+    height: 15px;
+    width: 20px;
+    background-color: #aaa;
+    margin-bottom: 3px;
+  }
+  
+  .main .right .banner {
+    height:310px;
+    background-color: #989898;
+  }
+  
+  .main .right .featured h2 {
+    height: 25px;
+    background-color: #989898;
+    margin:15px;
+  }
+  .main .right .featured .item .item22 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .main .right .featured .item img {
+    background-color: #989898;
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: 10px;
+  }
+ 
+  .main .right .featured .item .item22 .p h1{
+    background-color: #aaaa;
+    width: 215px;
+    height: 10px;
+  }
+
+ .main .right h2.p{
+    background-color: #aaaa;
+    width: 350px;
+    height: 10px;
+    margin-top: 0;
+
+  }
+  .footer{
+    background-color: #c1bdbd;
+    height: 30px;
+
+  }
